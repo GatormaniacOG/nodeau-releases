@@ -34,6 +34,6 @@ sha256sum nodeau.tar.gz                                   # must equal the chann
 |---|---|---|
 | `alpha` | v0.1.0-alpha.5 | `0ab991efde02` |
 | `beta` | v0.19.0-beta.8 | `da94f6d49c4a` |
-| `r1-drill` | v0.19.0-beta.7 | `49dc1bc68fec` |
+| `r1-drill` | v0.19.0-beta.8 | `da94f6d49c4a` |
 
 Security reports: see https://get.nodeau.ai/SECURITY.md.
