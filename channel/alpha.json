@@ -1,0 +1,36 @@
+{
+  "channel": "alpha",
+  "version": "v0.1.0-alpha.5",
+  "commit": "0ab991efde020bd057a8ad8c4257c25b94c27003",
+  "released": "2026-08-09T03:47:19-04:00",
+  "notes": "Nodeau Self-Hosted Alpha. One machine, one NVIDIA GPU, Ubuntu 24.04 x86_64.",
+  "artifacts": {
+    "linux-amd64": {
+      "url": "https://get.nodeau.ai/releases/v0.1.0-alpha.5/nodeau-linux-amd64.tar.gz",
+      "sha256": "f615a910a474273d3f0cce5f35f74c3cf0021019006bcb3d509a1e523b686a88",
+      "sizeBytes": 12157214
+    }
+  },
+  "images": {
+    "controller": {
+      "reference": "ghcr.io/gatormaniacog/nodeau-controller:v0.1.0-alpha.5",
+      "digest": "sha256:49f44221ba47eb77b529c80bdae21bf309c046cc6a3088e064d6b63a9ec9fa0e"
+    },
+    "agent": {
+      "reference": "ghcr.io/gatormaniacog/nodeau-agent:v0.1.0-alpha.5",
+      "digest": "sha256:b7687d49224c07130fce26c4379266bf0679e76ed231cfac3a2822d64de23376"
+    }
+  },
+  "runtime": {
+    "llamacpp": {
+      "reference": "ghcr.io/ggml-org/llama.cpp:server-cuda-b10298",
+      "digest": "sha256:27cf25ef1ee83a21f7b57896e98b4375067554b485fec1dddbaba8ceee5a831a"
+    }
+  },
+  "requires": {
+    "os": ["ubuntu-24.04"],
+    "arch": ["x86_64"],
+    "gpuVendor": "nvidia",
+    "minDriverVersion": "550.0"
+  }
+}
