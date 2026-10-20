@@ -33,6 +33,6 @@ sha256sum nodeau.tar.gz                                   # must equal the chann
 | channel | version | commit |
 |---|---|---|
 | `alpha` | v0.1.0-alpha.5 | `0ab991efde02` |
-| `beta` | v0.19.0-beta.9 | `01f5609a3e87` |
+| `beta` | v0.19.0-beta.11 | `d13b1d4b565f` |
 
 Security reports: see https://get.nodeau.ai/SECURITY.md.
